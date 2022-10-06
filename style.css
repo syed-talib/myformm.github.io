@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media (min-width:300px){
+
+.container{
+       display:grid;
+       height: 100vh;
+       place-items:center;
+       background: url("th2.jpg");
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
+       position: relative;
+      
+}
+.container form{
+    height:400px;
+    width:500px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 10px;
+    border:none;
+    padding: 20px;
+    position: absolute;
+    top: 160px;
+   
+   
+    
+}
+form>input,button,textarea ,select{
+    width:200px;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+}
+
+::placeholder{
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: grey;
+}
+h1{
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-size:20px;
+     color:black;
+     background: white;
+     padding: 10px;
+     text-transform: capitalize;
+     position: absolute;
+     top: 60px;
+     border-radius: 5px;
+}
+button{
+       
+    background: rgb(35, 35, 226);
+    border: none;
+    color: white;
+    cursor: pointer;
+
+}
+}
